@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Header from './components/ui/Header';
 
 const App = () => {
   return (
-    <div className="App">
-      Breaking Bad Cast
+    <div className="container">
+      <Header />
     </div>
   );
 }
